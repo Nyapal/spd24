@@ -8,11 +8,11 @@ def problemOne (n, t):
         possible_sum = t - num 
 
         if possible_sum in n:
-            output.append(num)
-            output.append(possible_sum)
+            forst = output.append([num,])
+            second = output.append(possible_sum)
         # print(num)
     return output
 
-if __name__ == "__main__":
+if __name__ == "__main__":--
     solution = problemOne([5, 4, 2, 7], 6)
     print(solution)
